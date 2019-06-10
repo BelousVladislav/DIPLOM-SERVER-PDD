@@ -146,8 +146,8 @@ app.post('/autorization_user', jsonParser, async(req, res) => {
 })
 // 172.20.10.5
 //192.168.0.104
-const server = app.listen(8080, '172.20.10.5', () => {
-    console.log(`192.168.0.104 on 8080`);
+const server = app.listen(8080, '192.168.0.103', () => {
+    console.log(`192.168.0.102 on 8080`);
 })
 // ---------------------------------THEMES=--------------------------------------------------
 app.get('/themes/get_themes', async(req, res) => {

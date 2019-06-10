@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = require("fs");
+// 10.10.10.184
 exports.WriteRequestLog = (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://172.20.10.5:4200');
+    res.setHeader('Access-Control-Allow-Origin', 'http://192.168.0.103:4200');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
     res.setHeader('Access-Control-Allow-Credentials', true);
